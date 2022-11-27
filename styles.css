@@ -1,0 +1,24 @@
+:root {
+  --bg-color: rgb(13, 16, 37);
+  --on-bg: rgb(20, 25, 60);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: white;
+}
+
+#search-bar {
+  padding: 0px 12px !important;
+  background-color: var(--on-bg);
+}
+
+#search {
+  background-color: inherit;
+  border: none;
+  color: white;
+}
+
+#search:focus {
+  box-shadow: none;
+}
